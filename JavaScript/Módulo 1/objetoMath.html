@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Objeto Math</title>
+</head>
+<body>
+
+	<h1>Objeto Math</h1>
+
+	<h2>Calculo de la raiz cuadrada</h2>
+
+	<script>
+		
+		//area circulo = (PI * radio) elevado al cuadrado
+
+		var radio = 5.6;
+
+		var area = Math.pow( (Math.PI * radio), 2);
+
+		document.write("El area de un circulo con radio de " + radio + " es : " + area);
+
+
+	</script>
+	
+
+	<h2>Indicador de distancia</h2>
+
+	<script>
+		
+		var distancia = 11.3;
+
+		var mensaje = "Su destino está entre " + Math.floor(distancia) + " y " + Math.ceil(distancia) + " kilometros de aquí";
+
+		document.write(mensaje);
+
+	</script>
+
+</body>
+</html>
